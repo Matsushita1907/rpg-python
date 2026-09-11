@@ -20,6 +20,7 @@ def mostrar_status(nome, classe, hp, ataque, defesa):
     print("Ataque:", ataque)
     print("Defesa:", defesa)
 
+# Criação do personagem
 nome = input("Digite o nome do seu personagem: ")
 
 print()
