@@ -188,6 +188,7 @@ while hp > 0 and inimigo_hp > 0:
 
         break
 
+    # Caso o jogador digite uma opção inexistente
     else:
 
         print()
