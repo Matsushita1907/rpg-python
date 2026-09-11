@@ -109,18 +109,13 @@ while hp > 0 and inimigo_hp > 0:
         print("Você fugiu da batalha!")
         break
 
-
     else:
 
         print()
         print("❌ Opção inválida!")
 
-
-
-
 print()
 print("          FIM DA BATALHA")
-
 
 if hp <= 0:
 
