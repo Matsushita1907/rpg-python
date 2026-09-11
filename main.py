@@ -53,3 +53,8 @@ inimigo_hp = inimigo_hp - ataque
 
 print("O Goblin perdeu", ataque, "de HP!")
 print("HP do Goblin:", inimigo_hp)
+
+if inimigo_hp <= 0:
+    print("O Goblin morreu!")
+else:
+    print("O Goblin ainda está vivo!")
