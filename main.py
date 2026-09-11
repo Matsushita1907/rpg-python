@@ -124,6 +124,8 @@ while hp > 0 and inimigo_hp > 0:
             print("Você perdeu", dano_inimigo, "de HP!")
             print("Seu HP:", hp)
 
+
+    # Ataque forte causa o dobro do dano
     elif acao == "2":
 
         print()
