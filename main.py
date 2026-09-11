@@ -28,3 +28,11 @@ elif classe == "3":
 
 else:
     print("Opção inválida!")
+
+print()
+print("Personagem criado ! ")
+print("Nome", nome)
+print("classe", classe)
+print("hp", hp)
+print("Ataque", ataque)
+print("Defesa", defesa)
