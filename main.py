@@ -46,21 +46,21 @@ print("Um inimigo apareceu!")
 print("Inimigo:", inimigo_nome)
 print("HP:", inimigo_hp)
 
-print()
-print("Você atacou o Goblin!")
+while hp > 0 and inimigo_hp > 0:
+    print()
+    print("Você atacou o Goblin!")
 
-inimigo_hp = inimigo_hp - ataque
+    inimigo_hp = inimigo_hp - ataque
 
-print("O Goblin perdeu", ataque, "de HP!")
-print("HP do Goblin:", inimigo_hp)
+    print("O Goblin perdeu", ataque, "de HP!")
+    print("HP do Goblin:", inimigo_hp)
 
-if inimigo_hp <= 0:
-    print("O Goblin morreu!")
-else:
-    print("O Goblin ainda está vivo!")
+    if inimigo_hp <= 0:
+        print("O Goblin morreu!")
+    else:
+        print("O Goblin atacou você!")
 
-    print("O Goblin atacou você!")
-    hp = hp - inimigo_ataque
+        hp = hp - inimigo_ataque
 
-    print("Você perdeu", inimigo_ataque, "de HP!")
-    print("Seu HP:", hp)
+        print("Você perdeu", inimigo_ataque, "de HP!")
+        print("Seu HP:", hp)
