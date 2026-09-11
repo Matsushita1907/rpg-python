@@ -1,4 +1,6 @@
 print("RPG BATTLEGROUND")
+
+# Funções para exibir informações do personagem
 def mostrar_ficha(nome, classe, hp, ataque, defesa):
     print()
     print("PERSONAGEM CRIADO")
