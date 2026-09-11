@@ -180,10 +180,11 @@ while hp > 0 and inimigo_hp > 0:
         print("Seu HP:", hp)
 
 
+    # Encerra a batalha
     elif acao == "4":
 
         print()
-        print("🏃 Você fugiu da batalha!")
+        print("Você fugiu da batalha!")
 
         break
 
