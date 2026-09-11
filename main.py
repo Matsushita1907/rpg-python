@@ -90,6 +90,7 @@ while hp > 0 and inimigo_hp > 0:
     acao = input("Escolha sua ação: ")
 
 
+    # Ataque normal
     if acao == "1":
 
         print()
