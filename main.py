@@ -145,6 +145,8 @@ while hp > 0 and inimigo_hp > 0:
 
         else:
 
+
+            # Contra-ataque do inimigo
             print()
             print("O", inimigo_nome, "atacou você!")
 
@@ -158,6 +160,8 @@ while hp > 0 and inimigo_hp > 0:
             print("Você perdeu", dano_inimigo, "de HP!")
             print("Seu HP:", hp)
 
+
+    # Defesa reduz o dano recebido
     elif acao == "3":
 
         print()
