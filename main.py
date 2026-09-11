@@ -60,6 +60,7 @@ else:
 
 mostrar_ficha(nome, classe, hp, ataque, defesa)
 
+# Criação do inimigo
 inimigo_nome = "Goblin"
 inimigo_hp = 80
 inimigo_ataque = 25
