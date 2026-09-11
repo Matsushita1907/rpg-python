@@ -37,6 +37,11 @@ print("hp", hp)
 print("Ataque", ataque)
 print("Defesa", defesa)
 
-print("Agora vamos para a sua primeira batalha !")
+inimigo_nome = "Goblin"
+inimigo_hp = 50
+inimigo_ataque = 10
 
-batalha_goblin = print("Nome: Goblin")
+print()
+print("Um inimigo apareceu!")
+print("Inimigo:", inimigo_nome)
+print("HP:", inimigo_hp)
