@@ -31,6 +31,7 @@ print("[3] Arqueiro")
 
 classe = input("Escolha sua classe: ")
 
+# Define os atributos de acordo com a classe escolhida
 if classe == "1":
 
     classe = "Guerreiro"
