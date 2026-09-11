@@ -58,7 +58,7 @@ inimigo_ataque = 10
 
 
 print()
-print("        INIMIGO ENCONTRADO")
+print("INIMIGO ENCONTRADO")
 
 print("Inimigo:", inimigo_nome)
 print("HP:", inimigo_hp)
@@ -94,11 +94,14 @@ while hp > 0 and inimigo_hp > 0:
             print()
             print("O", inimigo_nome, "atacou você!")
 
-            hp = hp - inimigo_ataque
+            dano = inimigo_ataque - (defesa // 2)
 
-            print("Você perdeu", inimigo_ataque, "de HP!")
-            print("Seu HP:", hp)
+        if dano < 0:
+            dano = 0
 
+        hp = hp - dano
+        print("Você perdeu", dano, "de HP!")
+        print("Seu HP:", hp)
 
     elif acao == "2":
 
