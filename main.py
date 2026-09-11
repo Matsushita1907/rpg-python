@@ -196,7 +196,7 @@ while hp > 0 and inimigo_hp > 0:
 
 
 print()
-print("          FIM DA BATALHA")
+print("FIM DA BATALHA")
 
 if hp <= 0:
 
