@@ -110,7 +110,7 @@ while hp > 0 and inimigo_hp > 0:
 
         else:
 
-
+            # Contra-ataque do inimigo
             print()
             print("O", inimigo_nome, "atacou você!")
 
