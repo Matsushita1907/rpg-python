@@ -206,12 +206,12 @@ if hp <= 0:
 
 elif inimigo_hp <= 0:
 
-    print("🏆 Você venceu!")
-    print("💰 Você derrotou o", inimigo_nome + "!")
+    print("Você venceu!")
+    print("Você derrotou o", inimigo_nome + "!")
 
 else:
 
-    print("🏃 Você fugiu da batalha!")
+    print("Você fugiu da batalha!")
 
 if hp > 0:
 
