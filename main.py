@@ -72,6 +72,7 @@ print("Inimigo:", inimigo_nome)
 print("HP:", inimigo_hp)
 print("Ataque:", inimigo_ataque)
 
+# Loop principal da batalha
 while hp > 0 and inimigo_hp > 0:
 
     print()
