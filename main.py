@@ -36,3 +36,7 @@ print("classe", classe)
 print("hp", hp)
 print("Ataque", ataque)
 print("Defesa", defesa)
+
+print("Agora vamos para a sua primeira batalha !")
+
+batalha_goblin = print("Nome: Goblin")
