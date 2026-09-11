@@ -9,11 +9,22 @@ print("3 Arqueiro")
 classe = input("Escolha sua classe: ")
 
 if classe == "1":
-    print("Você é um guerreiro !")
-elif classe == "2":
-    print("Você é um mago !")
-elif classe == "3":
-    print("Você é um arqueiro !")
-else:
-    print("opção invalida")
+    classe = "Guerreiro"
+    hp = 120
+    ataque = 25
+    defesa = 20
 
+elif classe == "2":
+    classe = "Mago"
+    hp = 80
+    ataque = 40
+    defesa = 10
+
+elif classe == "3":
+    classe = "Arqueiro"
+    hp = 100
+    ataque = 30
+    defesa = 15
+
+else:
+    print("Opção inválida!")
