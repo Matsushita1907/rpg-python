@@ -192,9 +192,9 @@ while hp > 0 and inimigo_hp > 0:
     else:
 
         print()
-        print("❌ Opção inválida!")
+        print("Opção inválida!")
 
-
+# Resultado final da batalha
 print()
 print("FIM DA BATALHA")
 
