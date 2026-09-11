@@ -45,3 +45,11 @@ print()
 print("Um inimigo apareceu!")
 print("Inimigo:", inimigo_nome)
 print("HP:", inimigo_hp)
+
+print()
+print("Você atacou o Goblin!")
+
+inimigo_hp = inimigo_hp - ataque
+
+print("O Goblin perdeu", ataque, "de HP!")
+print("HP do Goblin:", inimigo_hp)
