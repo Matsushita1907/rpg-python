@@ -213,6 +213,8 @@ else:
 
     print("Você fugiu da batalha!")
 
+
+# Mostra o status final se o jogador estiver vivo
 if hp > 0:
 
     print()
