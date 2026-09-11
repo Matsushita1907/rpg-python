@@ -47,20 +47,60 @@ print("Inimigo:", inimigo_nome)
 print("HP:", inimigo_hp)
 
 while hp > 0 and inimigo_hp > 0:
+
     print()
-    print("Você atacou o Goblin!")
+    print("================================")
+    print("[1] Atacar")
+    print("[2] Fugir")
+    print("================================")
 
-    inimigo_hp = inimigo_hp - ataque
+    acao = input("O que você quer fazer? ")
 
-    print("O Goblin perdeu", ataque, "de HP!")
-    print("HP do Goblin:", inimigo_hp)
+    if acao == "1":
 
-    if inimigo_hp <= 0:
-        print("O Goblin morreu!")
+        print()
+        print("⚔️ Você atacou o Goblin!")
+
+        inimigo_hp = inimigo_hp - ataque
+
+        print("O Goblin perdeu", ataque, "de HP!")
+        print("HP do Goblin:", inimigo_hp)
+
+        if inimigo_hp <= 0:
+            print()
+            print("O Goblin morreu!")
+
+        else:
+            print()
+            print("O Goblin atacou você!")
+
+            hp = hp - inimigo_ataque
+
+            print("Você perdeu", inimigo_ataque, "de HP!")
+            print("Seu HP:", hp)
+
+    elif acao == "2":
+
+        print()
+        print("Você fugiu da batalha!")
+        break
+
     else:
-        print("O Goblin atacou você!")
 
-        hp = hp - inimigo_ataque
+        print()
+        print("Opção inválida!")
 
-        print("Você perdeu", inimigo_ataque, "de HP!")
-        print("Seu HP:", hp)
+
+# Resultado da batalha
+print()
+print("FIM DA BATALHA")
+
+if hp <= 0:
+    print("Você morreu!")
+
+elif inimigo_hp <= 0:
+    print("Você venceu!")
+    print("Você derrotou o Goblin!")
+
+else:
+    print("Você fugiu da batalha!")
