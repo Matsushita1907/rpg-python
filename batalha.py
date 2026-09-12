@@ -73,3 +73,10 @@ def batalha(jogador, inimigo):
             print("Você fugiu da batalha!")
 
             return "fugiu"
+        
+        else:
+
+            print()
+            print("Opção inválida!")
+
+            continue
