@@ -67,3 +67,9 @@ def batalha(jogador, inimigo):
             print("Você bloqueou parte do ataque!")
             print("Você perdeu", dano, "de HP!")
              
+        elif acao == "4":
+
+            print()
+            print("Você fugiu da batalha!")
+
+            return "fugiu"
