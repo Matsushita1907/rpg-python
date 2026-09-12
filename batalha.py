@@ -89,4 +89,12 @@ def batalha(jogador, inimigo):
 
             print()
             print(inimigo.nome, "atacou você!")
-            print("Você perdeu", dano, "de HP!")        
+            print("Você perdeu", dano, "de HP!")  
+            
+        if jogador.esta_vivo() and notinimigo.esta.vivo():
+
+            print()
+            print("Você venceu !!")
+            print("Você derrotou o", inimigo.nome + "!")
+
+            return "Vitoria !"
