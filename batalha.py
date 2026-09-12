@@ -28,3 +28,14 @@ def batalha(jogador, inimigo):
         print("[4] Fugir")
 
         acao = input("Escolha sua ação: ")
+
+        if acao == "1":
+
+            print()
+            print("Você atacou o", inimigo.nome + "!")
+
+            dano = jogador.ataque
+            inimigo.receber_dano(dano)
+
+            print("Você causou", dano, "de dano!")
+            print("HP do inimigo:", inimigo.hp)
