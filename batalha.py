@@ -39,3 +39,14 @@ def batalha(jogador, inimigo):
 
             print("Você causou", dano, "de dano!")
             print("HP do inimigo:", inimigo.hp)
+
+        elif acao == "2":
+
+            print()
+            print("💥 Você usou um ATAQUE FORTE!")
+
+            dano = jogador.ataque * 2
+            inimigo.receber_dano(dano)
+
+            print("Você causou", dano, "de dano!")
+            print("HP do inimigo:", inimigo.hp)
