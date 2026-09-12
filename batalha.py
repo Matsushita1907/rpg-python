@@ -98,3 +98,11 @@ def batalha(jogador, inimigo):
             print("Você derrotou o", inimigo.nome + "!")
 
             return "Vitoria !"
+        
+        elif not jogador.esta_vivo():
+
+            print()
+            print("Você morreu !!")
+            print("Fim de jogo :(")
+
+            return "derrota"
