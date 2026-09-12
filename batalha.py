@@ -80,3 +80,13 @@ def batalha(jogador, inimigo):
             print("Opção inválida!")
 
             continue
+
+        if inimigo.esta_vivo():
+
+            dano = calcular_dano(inimigo.ataque, jogador.defesa)
+
+            jogador.receber_dano(dano)
+
+            print()
+            print(inimigo.nome, "atacou você!")
+            print("Você perdeu", dano, "de HP!")        
